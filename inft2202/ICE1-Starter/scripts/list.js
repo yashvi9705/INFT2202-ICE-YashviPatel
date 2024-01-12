@@ -46,6 +46,6 @@ let header2Text = header2.textContent;
 // No. of <li> elements
 var numberOfItems = listItems.length;
 // Content
-var content = header2 + " " + numberOfItems;
+var content = header2Text + ":" + numberOfItems;
 // Update h2 using innerHTML (not textContent) because it contains markup
 header2.innerHTML = content;
