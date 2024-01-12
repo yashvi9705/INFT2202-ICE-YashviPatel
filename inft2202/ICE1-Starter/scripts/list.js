@@ -5,8 +5,7 @@ var groceryList = document.getElementById("groceries");
 // Create element
 const newListItem = document.cerateElement("li");
 // Create text node
-
-const listItemContent = document.createTextNode("");
+const listItemContent = document.createTextNode("Milk");
 // Add text node to element
 newListItem.appendChild(listItemContent);
 // Add element end of list
@@ -14,9 +13,14 @@ groceryList.appendChild(newListItem);
 
 // ADD NEW ITEM START OF LIST
 // Create element
+const newListItem2 = document.cerateElement("li");
 // Create text node
+const listItemContent2 = document.createTextNode("Milk");
+
 // Add text node to element
+newListItem2.appendChild(listItemContent2);
 // Add element to list
+groceryList.appendChild(newListItem2);
 
 
 
