@@ -1,0 +1,30 @@
+{
+    "products":
+    [
+        {
+            "productID": "A1",
+            "productName": "Widget X",
+            "developer": "Developer X",
+            "description": "This small widget creates excitement",
+            "price": 9.99,
+            "images": "https://i.pinimg.com/236x/4a/e6/32/4ae63286ad6469cec8846159f493e30d.jpg"
+        },
+        {
+            "productID": "A2",
+            "productName": "Dune",
+            "developer": "Frank Herbert",
+            "description": "The spice must flow...",
+            "price": 1.99,
+            "images": "https://i.pinimg.com/564x/57/f8/63/57f863cddd4d64c810a2a169a4e7bd94.jpg"
+            
+        },
+        {
+            "productID": "A3",
+            "productName": "Star Wars",
+            "developer": "George Lucas",
+            "description": "In a Galaxy far, far away",
+            "price": 15.99,
+            "images": "https://th.bing.com/th/id/OIP.qiL0LUzq_zQch_hW36WExAHaEK?rs=1&pid=ImgDetMain"
+        }
+    ]
+}
