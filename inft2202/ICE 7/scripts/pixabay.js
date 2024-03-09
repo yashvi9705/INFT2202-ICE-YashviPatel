@@ -1,5 +1,7 @@
 /**
- * ADD HEADER COMMENTS WITH YOUR NAME + DATE
+ * Name: Yashvi Patel
+ * Student ID: 100900705
+ * Date: 8th March 2024
  */
 console.log('pixabay.js loaded');
 
@@ -28,12 +30,11 @@ const makePosts = () =>
                 // Process the retrieved data and dynamically create HTML elements
                 data.hits.forEach(function (image) {
 
-                     // use bootstrap cards and append to
+                    // use bootstrap cards and append to
                     // i.e. https://getbootstrap.com/docs/5.2/components/card/#about
-                    const card = $("<div>").addClass("col-md-9 mb-3 mx-auto");
-                     // create card
-                    const cardInner = $("<div>").addClass("card");
-                    
+                  
+                    // create card
+                     const card = $("<div>").addClass("col-md-9 mb-3 mx-auto");
                     // card body
                     const cardBody = $("<div>").addClass("card-body");
                     // card title
@@ -43,11 +44,8 @@ const makePosts = () =>
                     // card text
                     const cardText = $("<p>").addClass("card-text").text("Tags: " + image.tags);
 
-                    cardBody.append(cardTitle, cardText);
-                    cardInner.append(imgElement, cardBody);
-                    card.append(cardInner);
-
-
+                    // appended the values to add it inside their respective div
+                
                     cardBody.append(cardTitle, cardText);
                     card.append(imgElement, cardBody);
 
@@ -88,5 +86,4 @@ const getPictures = () =>
 };
 
 getPictures();
-
 makePosts();
